@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+    <title>learn</title>
+</head>
+<body>
+     <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">JiMusic</h2>
+      <div class="navbar">
+            <div class="home" id="navbar-nav">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </div>
+            <div class="trend" id="navbar-nav">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+                <p>Trends</p>
+            </div>
+            <div class="feed" id="navbar-nav">
+                <i class="fa-solid fa-compass"></i>
+                <p>Feed</p>
+            </div>
+            <div class="separator">
+                <p>Discover</p>
+            </div>
+             <div class="newand" id="navbar-nav">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+                <p>New and Notable</p>
+            </div>
+            <div class="release" id="navbar-nav">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Release Calendar</p>
+            </div>
+            <div class="event" id="navbar-nav">
+                <i class="fa-solid fa-ticket"></i>
+                <p>Events</p>
+            </div>
+            <div class="separator">
+                <p>Your Collection</p>
+            </div>
+            <div class="fav" id="navbar-nav">
+                <i class="fa-solid fa-heart"></i>
+                <p>Favorite Songs</p>
+            </div>
+            <div class="artist" id="navbar-nav">
+                <i class="fa-solid fa-users"></i>
+                <p>Artist</p>
+            </div>
+            <div class="album" id="navbar-nav">
+                <i class="fa-solid fa-star"></i>
+                <p>Albums</p>
+            </div>
+        </div>
+      
+      <div class="profile">
+       <i class="fa-solid fa-user"></i>
+        <span>Mamat</span>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="header">
+          <i class="fa-solid fa-arrow-left-long fa-sm" id="kiri" ></i>
+          <i class="fa-solid fa-arrow-right-long fa-sm" id="kanan" ></i>
+        <input type="text" placeholder="Search for artist, songs and..." />
+      </div>
+      <section class="trending">
+        <div class="title-trending">
+            <p>What's Hot</p>
+            <h3>Trending </h3>
+        </div>
+        <div class="btnmore">
+            <p>More</p>
+            <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        </div>
+        <div class="trending-card">
+          <div class="info">
+            <p>Artist</p>
+            <h4 class="top">On Top </h4>
+            <h4>Of The World</h4>
+            <button class="play">Play</button>
+            <button class="follow">Follow</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="playlist">
+        <h3>My Playlist</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Title</th>
+              <th>Artist</th>
+              <th>Time</th>
+              <th>Album</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="playlist-list" id="play-1" data-music="0">
+              <td>01</td>
+              <td>Before I Forget</td>
+              <td>Slipknot</td>
+              <td>4:30</td>
+              <td>The Subliminal Verses</td>
+            </tr>
+            <tr class="playlist-list" id="play-2" data-music="1">
+              <td>02</td>
+              <td>Duality</td>
+              <td>Slipknot</td>
+              <td>3:34</td>
+              <td>The Subliminal Verses</td>
+            </tr>
+            <tr class="playlist-list" id="play-3" data-music="2">
+              <td>03</td>
+              <td>Psychosocial</td>
+              <td>Slipknot</td>
+              <td>5:20</td>
+              <td>All Hope Is Gone</td>
+            </tr>
+            <tr class="playlist-list" id="play-4" data-music="3">
+              <td>04</td>
+              <td>Unsainted</td>
+              <td>Slipknot</td>
+              <td>4:45</td>
+              <td> We Are Not Your Kind</td>
+            </tr>
+            <tr class="playlist-list" id="play-5" data-music="4">
+              <td>05</td>
+              <td>Left Behind</td>
+              <td>Slipknot</td>
+              <td>3:38</td>
+              <td>Iowa</td>
+            </tr>
+            <tr class="playlist-list" id="play-6" data-music="5">
+              <td>06</td>
+              <td>Eyeless</td>
+              <td>Slipknot</td>
+              <td>3:56</td>
+              <td>Slipknot</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <div class="player-controls">
+        <audio src="./lagu/before.mp3" type="audio/mpeg" ></audio>
+      <div class="wrap-player">
+        <div class="left-button">
+          <span class="solar--heart-linear"></span>
+          <span class="mynaui--music"></span>
+          <span class="lsicon--screen-full-filled"></span>
+        </div>
+          <div class="control-button">
+            <div class="repeatbutton" id="repeatbutton"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#333" fill-rule="evenodd" d="M8.47 2.47a.75.75 0 0 1 1.06 0l2 2A.75.75 0 0 1 11 5.75H9a6.25 6.25 0 1 0 0 12.5h.5a.75.75 0 0 1 0 1.5H9a7.75 7.75 0 0 1 0-15.5h.19l-.72-.72a.75.75 0 0 1 0-1.06M13.75 5a.75.75 0 0 1 .75-.75h.5a7.75 7.75 0 0 1 0 15.5h-.19l.72.72a.75.75 0 1 1-1.06 1.06l-2-2a.75.75 0 0 1 .53-1.28h2a6.25 6.25 0 1 0 0-12.5h-.5a.75.75 0 0 1-.75-.75" clip-rule="evenodd"/></svg>
+            </div>
+             <div class="prevbutton" id="prevbutton">
+              <i class="fa-solid fa-backward"></i>
+            </div>
+            <div class="playbutton" id="playbutton">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="nextbutton" id="nextbutton">
+              <i class="fa-solid fa-forward"></i>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#333" d="M2 16.25a.75.75 0 0 0 0 1.5zm8.748-2.163l-.643-.386zm2.504-4.174l.643.386zM22 7l.53.53a.75.75 0 0 0 0-1.06zm-2.53 1.47a.75.75 0 0 0 1.06 1.06zm1.06-4a.75.75 0 1 0-1.06 1.06zm-5.31 2.92l-.369-.653zM2 17.75h3.603v-1.5H2zm9.39-3.277l2.505-4.174l-1.286-.772l-2.504 4.174zm7.007-6.723H22v-1.5h-3.603zm3.073-1.28l-2 2l1.06 1.06l2-2zm1.06 0l-2-2l-1.06 1.06l2 2zm-8.635 3.829c.434-.724.734-1.22 1.006-1.589c.263-.355.468-.543.689-.668l-.739-1.305c-.467.264-.82.627-1.155 1.08c-.326.44-.668 1.011-1.087 1.71zm4.502-4.049c-.815 0-1.48 0-2.025.052c-.562.055-1.054.17-1.521.435l.739 1.305c.22-.125.487-.204.927-.247c.456-.044 1.036-.045 1.88-.045zM5.603 17.75c.815 0 1.48 0 2.025-.052c.562-.055 1.054-.17 1.521-.435l-.739-1.305c-.22.125-.487.204-.927.247c-.456.044-1.036.045-1.88.045zm4.502-4.049c-.435.724-.734 1.22-1.006 1.589c-.263.355-.468.543-.689.668l.74 1.305c.466-.264.819-.627 1.154-1.08c.326-.44.668-1.011 1.087-1.71zM2 6.25a.75.75 0 0 0 0 1.5zM22 17l.53.53a.75.75 0 0 0 0-1.06zm-1.47-2.53a.75.75 0 1 0-1.06 1.06zm-1.06 4a.75.75 0 1 0 1.06 1.06zm-3.345-1.525l.144-.736zm-1.682-2.33a.75.75 0 1 0-1.286.77zm.025 1.391l.558-.501zm-6.593-8.95l.143-.737zm1.682 2.33a.75.75 0 0 0 1.286-.772zm-.025-1.393l-.558.502zM2 7.75h4.668v-1.5H2zm15.332 10H22v-1.5h-4.668zm5.198-1.28l-2-2l-1.06 1.06l2 2zm-1.06 0l-2 2l1.06 1.06l2-2zm-4.138-.22c-.645 0-.867-.003-1.063-.041l-.287 1.472c.372.072.765.069 1.35.069zm-4.175-.864c.3.502.5.84.754 1.122l1.115-1.003c-.134-.149-.25-.337-.583-.89zm3.112.823a2.25 2.25 0 0 1-1.243-.704l-1.115 1.003a3.75 3.75 0 0 0 2.071 1.173zM6.668 7.75c.645 0 .867.003 1.063.041l.287-1.472c-.372-.072-.765-.069-1.35-.069zm4.175.864c-.3-.502-.5-.84-.754-1.122L8.974 8.495c.134.149.25.337.583.89zm-3.112-.823c.48.094.916.34 1.243.704l1.115-1.003a3.75 3.75 0 0 0-2.071-1.173z"/></svg>          
+          </div>
+          <div class="vol-button">
+            <div class="vol">
+              <span class="material-symbols-min"></span>
+              <input type="range" id="volumeRange" min="0" max="100" class="volumeRange"/>
+              <span class="material-symbols-max"></span>
+            </div>
+          </div> 
+      </div>
+        <div class="timeline">
+          <div class="durasi-gerak">00:00</div>
+          <div id="progress-wrap">
+                <div id="progress"></div>
+            </div>
+          <div class="durasi-total">00:00</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="right-sidebar">
+      <div class="shortcuts">
+        <h4>Shortcuts</h4>
+        <div class="tags">
+          <span>Chill Hits</span>
+          <span class="cat-1">Hop</span>
+          <span class="cat-1">Acoustic</span>
+          <span >Indie Pop</span>
+          <span class="cat-1">Piano Blues</span>
+          <span>Jazz</span>
+        </div>
+      </div>
+      <div class="fav-artist">
+        <h4>Fav Artist</h4>
+        <ul>
+          <div class="artis">
+            <img src="asset/taylor-swift.jpg" alt="artist" width="30px" height="30px">
+            <div class="desc">
+              <li>Taylor Swift</li>
+              <p>100 song's in library</p>
+            </div>
+            <span class="solar--menu-dots-bold"></span>
+          </div>
+          <div class="artis">
+            <img src="asset/kanye-west.jpg" alt="artist" width="30px" height="30px">
+            <div class="desc">
+              <li>Kanye West</li>
+              <p>100 song's in library</p>
+            </div>
+            <span class="solar--menu-dots-bold"></span>
+          </div>
+          <div class="artis">
+            <img src="asset/drake.jpg" alt="artist" width="30px" height="30px">
+            <div class="desc">
+              <li>Drake</li>
+              <p>100 song's in library</p>
+            </div>
+            <span class="solar--menu-dots-bold"></span>
+          </div>
+          <div class="artis">
+            <img src="asset/billie.jpg" alt="artist" width="30px" height="30px">
+            <div class="desc">
+              <li>Billie Eilish</li>
+              <p>100 song's in library</p>
+            </div>  
+            <span class="solar--menu-dots-bold"></span>
+          </div>
+        </ul>
+      </div>
+      <div class="artist-card">
+        <img src="asset/kana-nishino.jpg" alt="Artist Image"/>
+        <p class="judul">Tosetsu</p>
+        <p class="singer">Kana Nishino</p>
+      </div>
+    </aside>
+  </div>
+ </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
