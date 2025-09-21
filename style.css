@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #cecece;
-  color: #333;
+  background-color: #44444E;
+  color: #D3DAD9;
 }
 
 .container {
@@ -18,28 +18,29 @@ body {
  /* sidebar start */
 .sidebar {
   width: 220px;
-  background: white;
+  background: #37353E;
   display: flex;
   flex-direction: column;
 }
 
 .logo {
-  padding: 10px 0 0 10px;
+  padding: 13px 0 0 10px;
 
 }
 .home {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    margin-top: 10px;
-    padding: 5px 0 5px 10px;
+    margin-top: 13px;
+    padding: 13px 0 8px 10px;
+    align-items:center ;
 }
 
 .trend {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
@@ -47,22 +48,22 @@ body {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
 .separator {
   padding: 0 0 0 10px;
-  margin-top: 10px;
+  margin-top: 26px;
   font-size: 12px;
-  color: #9e9e9e;
+  color: #b6bbba;
 }
 
 .newand {
   display: flex;
   flex-direction: row;
   gap: 7px;
-  padding: 5px 0 5px 10px;
+  padding: 13px 0 8px 10px;
 
 }
 
@@ -70,15 +71,25 @@ body {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
+}
+
+
+.fluent--calendar-rtl-48-filled {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23D3DAD9' d='M42 12.25A6.25 6.25 0 0 0 35.75 6h-23.5A6.25 6.25 0 0 0 6 12.25V14h36zm0 4.25v19.25A6.25 6.25 0 0 1 35.75 42h-23.5A6.25 6.25 0 0 1 6 35.75V16.5zm-12 7a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0M24 26a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-11-2.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0M32.5 34a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-11-2.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0'/%3E%3C/svg%3E");
 }
 
 .event {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
@@ -86,7 +97,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
@@ -94,7 +105,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
@@ -102,14 +113,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    padding: 5px 0 5px 10px;
+    padding: 13px 0 8px 10px;
 
 }
 
 .profile {
-  margin-top: 230px;
-  border-top: 1px solid #ddd;
-  padding: 5px 0 5px 10px;
+  margin-top: 100px;
+  padding: 0 0 5px 10px;
 }
 
 
@@ -118,12 +128,13 @@ body {
 }
 
 .sidebar  #navbar-nav:hover {
-  background: #333;
+  background: #D3DAD9;
   border-radius: 5px;
-  color: #f0f0f0;
+  color: #37353E;
   width: 80%;
   margin-left: 5px;
-  padding: 5px 0 5px 8px;
+  padding: 13px 0 8px 10px;
+  
   
 }
 
@@ -143,12 +154,12 @@ body {
 
 
 .main-content::-webkit-scrollbar-thumb {
-      background-color: #333;
+      background-color: #D3DAD9;
       border-radius: 10px;
     }
 
 .main-content::-webkit-scrollbar-thumb:hover {
-      background-color: #333;
+      background-color: #D3DAD9;
   
     }
 
@@ -162,9 +173,9 @@ body {
 .header input {
   width: 80%;
   padding: 10px;
-  border: 1px solid #ccc;
+  background-color: #D3DAD9;
+  border: 1px solid #D3DAD9;
   border-radius: 16px;
-  
   margin-left: 70px;
 }
 
@@ -175,7 +186,7 @@ body {
 .header i {
     
     margin-top: 19px;
-    color: #333;
+    color: #D3DAD9;
 }
 
 .trending {
@@ -184,7 +195,7 @@ body {
 
 .trending p {
   font-size: 12px;
-  color: #363636;
+  color: #D3DAD9;
 }
 
 .title-trending h3 {
@@ -196,7 +207,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    color: #9e9e9e;
+    color: rgb(211, 218, 217);
     margin-bottom: 15px;
 } 
 
@@ -209,7 +220,7 @@ body {
 }
 
 .trending-card {
-  background-image: linear-gradient(to right, rgb(254, 255, 255, 1), rgba(255, 255, 255, 0)),url('asset/bg.jpg');
+  background-image: linear-gradient(to right, rgb(211, 217, 218), rgba(255, 255, 255, 0)),url('asset/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,9 +293,8 @@ body {
 }
 
 .playlist .playlist-list:hover {
-  background: #333;
-  border-radius: 100px;
-  color: #f0f0f0;
+  background: #D3DAD9;
+  color: #37353E;
   padding: 8px;
 }
 
@@ -347,7 +357,8 @@ body {
   align-items: center;
   gap: 10px;
   cursor: pointer;
-  background-color: #f8f8f8;
+  color: #37353E;
+  background-color: #D3DAD9;
   width: 100%;
   height: 70px;
   padding: 10px;
@@ -448,13 +459,11 @@ body {
 /* right sidebar start */
 .right-sidebar {
   width: 240px;
-  background: white;
+  background: #393E46;
   padding: 20px;
 }
 
 .right-sidebar .tags span {
-  background: #cecece;
-  color: #333;
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
   margin-top: 10px;
@@ -462,36 +471,96 @@ body {
   font-size: 12px;
 }
 
-.right-sidebar .tags span:hover {
-  background: #333;
+
+.right-sidebar .tags .cat-1 {
+  margin-top: 13px;
+  background-color: #8fb9e4;
   color: #f8f8f8;
-  border-radius: 20px;
-  padding: 5px 10px 5px 10px;
-  margin-top: 10px;
-  display: inline-block;
-  font-size: 12px;
+}
+
+.right-sidebar .tags .cat-1:hover {
+  background-color: #257dd4;
+  color: #f8f8f8;
   cursor: pointer;
 }
 
-.right-sidebar .tags .cat-1 {
+.right-sidebar .tags .cat-2 {
   margin-left: 5px;
+  background-color: #c08081;
+  color: #f8f8f8;
+}
+
+.right-sidebar .tags .cat-2:hover {
+  background-color: #b33e40;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+
+.right-sidebar .tags .cat-3 {
+  margin-left: 5px;
+  background-color: #C19A6B;
+  color: #f8f8f8;
+}
+
+.right-sidebar .tags .cat-3:hover {
+  background-color: #ac7129;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.right-sidebar .tags .cat-4 {
+  margin-top: 13px;
+  background-color: #FF6F61;
+  color: #f8f8f8;
+}
+
+.right-sidebar .tags .cat-4:hover {
+  background-color: #fc4130;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.right-sidebar .tags .cat-5 {
+  margin-left: 5px;
+  background-color: #708090;
+  color: #f8f8f8;
+}
+
+.right-sidebar .tags .cat-5:hover {
+  background-color: #396592;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.right-sidebar .tags .cat-6 {
+  margin-top: 13px;
+  background-color: #A9A9A9;
+  color: #f8f8f8;
+}
+
+.right-sidebar .tags .cat-6:hover {
+  background-color: #6d6d6d;
+  color: #f8f8f8;
+  cursor: pointer;
 }
 
 .fav-artist {
-  margin-top: 10px;
+  margin-top: 26px;
 }
 
 .fav-artist ul {
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .fav-artist .artist li {
-  padding: 5px 0 5px 10px;
+  padding: 13px 0 5px 10px;
   text-decoration: none;
 }
 
 .fav-artist img {
   border-radius: 50%;
+  
 }
 
 .artis {
@@ -503,7 +572,7 @@ body {
 
 .artis p {
   font-size: 10px;
-  color: #8a8a8a;
+  color: #D3DAD9;
   
 }
 
@@ -511,26 +580,24 @@ body {
   margin-left: 30px;
 }
 
-.solar--menu-dots-bold {
+.solar--menu-dots-bold  {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M7 12a2 2 0 1 1-4 0a2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23D3DAD9' d='M7 12a2 2 0 1 1-4 0a2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m7 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0'/%3E%3C/svg%3E");
 }
 
 .artist-card {
-  margin-top: 10px;
-  text-align: center;
-  background-color: #cecece;
-  width: 100%;
-  padding: 10px;
+  margin-top: 13px;
+  padding: 13px 10px 0 10px;
   border-radius: 12px;
 }
 
 .artist-card img {
   width: 100%;
+  height: 150px;
   border-radius: 12px;
 }
 
@@ -546,5 +613,5 @@ body {
 
 .artist-card .singer {
   font-size: 12px;
-  color: #363636;
+  color: #D3DAD9;
 }
