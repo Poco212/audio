@@ -453,8 +453,8 @@ body {
 }
 
 .right-sidebar .tags span {
-  background: #333;
-  color: #f8f8f8;
+  background: #cecece;
+  color: #333;
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
   margin-top: 10px;
@@ -463,8 +463,8 @@ body {
 }
 
 .right-sidebar .tags span:hover {
-  background: #cecece;
-  color: #242424;
+  background: #333;
+  color: #f8f8f8;
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
   margin-top: 10px;
@@ -503,7 +503,8 @@ body {
 
 .artis p {
   font-size: 10px;
-  color: #9c9c9c;
+  color: #8a8a8a;
+  
 }
 
 .artis span {
