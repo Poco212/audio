@@ -17,44 +17,50 @@ body {
 }
  /* sidebar start */
 .sidebar {
-  width: 220px;
+  width: 13.75rem ;
   background: #37353E;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 .logo {
-  padding: 13px 0 0 10px;
+  padding-top: 1.4rem;
+  padding-left: 1.4rem;
 
 }
+
 .home {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    margin-top: 13px;
-    padding: 13px 0 8px 10px;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
+    gap: 1.4rem;
     align-items:center ;
 }
 
 .trend {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
 }
 
 .feed {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
 }
 
 .separator {
-  padding: 0 0 0 10px;
-  margin-top: 26px;
+  padding-top: 2rem;
+  padding-left: 1.4rem;
   font-size: 12px;
   color: #b6bbba;
 }
@@ -62,80 +68,76 @@ body {
 .newand {
   display: flex;
   flex-direction: row;
-  gap: 7px;
-  padding: 13px 0 8px 10px;
+  gap: 1.4rem;
+  padding-top: 1.4rem;
+  padding-left: 1.4rem;
 
 }
 
 .release {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
-}
-
-
-.fluent--calendar-rtl-48-filled {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23D3DAD9' d='M42 12.25A6.25 6.25 0 0 0 35.75 6h-23.5A6.25 6.25 0 0 0 6 12.25V14h36zm0 4.25v19.25A6.25 6.25 0 0 1 35.75 42h-23.5A6.25 6.25 0 0 1 6 35.75V16.5zm-12 7a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0M24 26a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-11-2.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0M32.5 34a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-11-2.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 0 0-5 0'/%3E%3C/svg%3E");
 }
 
 .event {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
 }
 
 .fav {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
 }
 
 .artist {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
 }
 
 .album {
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    padding: 13px 0 8px 10px;
+    gap: 1.4rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
 
+}
+
+.fa-solid {
+  width: 1rem;
 }
 
 .profile {
-  margin-top: 100px;
-  padding: 0 0 5px 10px;
-}
-
-
-.sidebar .navbar {
-  cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    padding-top: 5rem;
+    padding-left: 1.4rem;
 }
 
 .sidebar  #navbar-nav:hover {
   background: #D3DAD9;
   border-radius: 5px;
   color: #37353E;
-  width: 80%;
-  margin-left: 5px;
-  padding: 13px 0 8px 10px;
-  
-  
+  width: 90%;
+  padding-top: 14px;
+  padding-bottom: 8.5px;
 }
 
 /* sidebar end */
@@ -167,7 +169,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 
@@ -177,21 +179,16 @@ body {
   background-color: #D3DAD9;
   border: 1px solid #D3DAD9;
   border-radius: 16px;
-  margin-left: 70px;
+  margin-left: 5rem;
 }
 
 .header #kanan {
-  padding-left: 30px;
+  padding-left: 2rem;
 }
 
-.header i {
-    
-    margin-top: 19px;
-    color: #D3DAD9;
-}
 
-.trending {
-  margin-bottom: 30px;
+.title-trending {
+  margin-top: 1.4rem;
 }
 
 .trending p {
@@ -201,60 +198,60 @@ body {
 
 .title-trending h3 {
     margin-top: 5px;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .btnmore {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    color: rgb(211, 218, 217);
-    margin-bottom: 15px;
+    color: #D3DAD9;
+    align-items: center;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
 } 
 
 .btnmore p {
     margin-right: 5px;
 }
 
-.btnmore i {
-    margin-top: 7px;
-}
 
 .trending-card {
   background-image: linear-gradient(to right, rgb(211, 217, 218), rgba(255, 255, 255, 0)),url('asset/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 15px;
-  height: 350px;
+  border-radius: 1rem;
+  height: 21rem;
   display: flex;
   align-items: flex-end;
-  padding: 20px;
+  padding-left: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1.4rem;
   color: #333;
   position: relative;
 }
 
 .trending-card .info p {
-  margin-left: 3px;
+  padding-left: 2px;
+  color: #333;
+
 }
 
 .trending-card .info h4 {
-    font-size: 32px;   
-}
-
-.top {
-  margin-top: 20px;
+    font-size: 32px; 
+    padding-top: 10px;  
 }
 
 .trending-card .info button {
-  margin-top: 20px;
-  margin-right: 10px;
+  margin-top: 1rem;
+  margin-right: 1rem;
   padding: 6px 12px;
   border: none;
   border-radius: 17px;
   cursor: pointer;
-  width: 100px;
-  height: 30px;
+  width: 6.3rem;
+  height: 2rem;
 }
 
 
@@ -284,11 +281,11 @@ body {
 
 .playlist h3 {
   font-size: 32px;
-  margin-left: 15px;
-  margin-bottom: 20px;
+  margin-top: 1.4rem;
 }
 
 .playlist table {
+  margin-top: 1.4rem;
   width: 100%;
   border-collapse: collapse;
 }
@@ -354,14 +351,12 @@ body {
 
 
 .player-controls {
-  margin-top: 20px;
-  align-items: center;
-  gap: 10px;
+  margin-top: 1.4rem;
   cursor: pointer;
   color: #37353E;
   background-color: #D3DAD9;
   width: 100%;
-  height: 70px;
+  height: 4.4rem;
   padding: 10px;
   border-radius: 10px;
 }
@@ -411,7 +406,7 @@ body {
   border-radius: 5px;
   outline: none;
   cursor: pointer;
-  background: linear-gradient(90deg, rgb(51, 51, 51) 51%, #e2e2e2 51%);
+  background: linear-gradient(90deg, rgb(51, 51, 51) 51%, #c2c2c2 51%);
 }
 
 .volumeRange::-webkit-slider-thumb {
@@ -442,7 +437,7 @@ body {
 
 
 #progress-wrap {
-    background-color: #e2e2e2;
+    background-color: #c2c2c2;
     width: 90%;
     height: 6px;
     border-radius: 15px;
@@ -459,22 +454,28 @@ body {
 
 /* right sidebar start */
 .right-sidebar {
-  width: 240px;
+  width: 14rem ;
   background: #393E46;
-  padding: 20px;
 }
 
-.right-sidebar .tags span {
+.shortcuts h4 {
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+}
+
+.right-sidebar .tags p {
   border-radius: 20px;
-  padding: 5px 10px 5px 10px;
-  margin-top: 10px;
-  display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  display: inline-flex;
+  width: 5rem;
+  justify-content: center;
 }
 
 
 .right-sidebar .tags .cat-1 {
-  margin-top: 13px;
+  padding: 4px;
   background-color: #8fb9e4;
   color: #f8f8f8;
 }
@@ -486,7 +487,7 @@ body {
 }
 
 .right-sidebar .tags .cat-2 {
-  margin-left: 5px;
+  padding: 4px;
   background-color: #c08081;
   color: #f8f8f8;
 }
@@ -499,7 +500,7 @@ body {
 
 
 .right-sidebar .tags .cat-3 {
-  margin-left: 5px;
+  padding: 4px;
   background-color: #C19A6B;
   color: #f8f8f8;
 }
@@ -511,7 +512,7 @@ body {
 }
 
 .right-sidebar .tags .cat-4 {
-  margin-top: 13px;
+  padding: 4px;
   background-color: #FF6F61;
   color: #f8f8f8;
 }
@@ -523,7 +524,7 @@ body {
 }
 
 .right-sidebar .tags .cat-5 {
-  margin-left: 5px;
+  padding: 4px;
   background-color: #708090;
   color: #f8f8f8;
 }
@@ -535,7 +536,7 @@ body {
 }
 
 .right-sidebar .tags .cat-6 {
-  margin-top: 13px;
+  padding: 4px;
   background-color: #A9A9A9;
   color: #f8f8f8;
 }
@@ -546,16 +547,19 @@ body {
   cursor: pointer;
 }
 
-.fav-artist {
-  margin-top: 26px;
+.fav-artist h4 {
+  margin-top: 2rem;
+  margin-left: 1.4rem;
 }
 
 .fav-artist ul {
-  margin-top: 13px;
+  margin-left: 1.4rem;
+  list-style-type: none;
 }
 
 .fav-artist .artist li {
-  padding: 13px 0 5px 10px;
+  padding-left: 1.4rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -567,8 +571,8 @@ body {
 .artis {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  margin-bottom: 15px;
+  gap: 1.4rem;
+  padding-top: 1.4rem;
 }
 
 .artis p {
@@ -577,12 +581,9 @@ body {
   
 }
 
-.artis span {
-  margin-left: 30px;
-}
 
 .solar--menu-dots-bold  {
-  display: inline-block;
+  display: flex;
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
@@ -591,19 +592,20 @@ body {
 }
 
 .artist-card {
-  margin-top: 13px;
-  padding: 13px 10px 0 10px;
+  margin-top: 2rem;
   border-radius: 12px;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
 }
 
 .artist-card img {
   width: 100%;
-  height: 150px;
+  height: 6.5rem;
   border-radius: 12px;
 }
 
 .artist-card p {
-  margin-top: 8px;
+  padding-top: 5px;
   text-align: start;
 }
 
